@@ -1,0 +1,78 @@
+CSS
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background-color: #f0f4f8;
+  color: #102a43;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 16px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 32px 24px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h1 {
+  font-size: 1.25rem;
+  color: #486581;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.name-display {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #0b69a3;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  word-break: break-word;
+}
+
+.gender-display {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #627d98;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  height: 20px;
+}
+
+.btn {
+  background-color: #0b69a3;
+  color: #ffffff;
+  border: none;
+  padding: 16px 24px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: #084c77;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
